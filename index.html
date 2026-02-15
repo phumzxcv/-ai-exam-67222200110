@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>Waste Classification</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>♻️ ระบบจำแนกประเภทขยะ</h1>
+
+  <video id="webcam" autoplay playsinline></video>
+
+  <div id="result">
+    <h2 id="label">กำลังตรวจจับ...</h2>
+    <p id="confidence">0%</p>
+    <p id="hint"></p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  transition: background 0.3s;
+}
+
+video {
+  width: 300px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.plastic { background: #ffe082; }
+.paper   { background: #bbdefb; }
+.metal   { background: #cfd8dc; }
